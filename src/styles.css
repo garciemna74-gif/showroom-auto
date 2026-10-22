@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --navy: #0f1c2e;
+  --navy-light: #1b2b45;
+  --gold: #c8a45c;
+  --bg: #f4f6f9;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e3e8ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
